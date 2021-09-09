@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/Laisky/gorm/v2"
+	"github.com/Laisky/gorm/v2/clause"
+	"github.com/Laisky/gorm/v2/migrator"
+	"github.com/Laisky/gorm/v2/schema"
 )
 
 type Migrator struct {

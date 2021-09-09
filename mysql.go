@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Laisky/gorm/v2"
+	"github.com/Laisky/gorm/v2/callbacks"
+	"github.com/Laisky/gorm/v2/clause"
+	"github.com/Laisky/gorm/v2/logger"
+	"github.com/Laisky/gorm/v2/migrator"
+	"github.com/Laisky/gorm/v2/schema"
 	_ "github.com/go-sql-driver/mysql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
 )
 
 type Config struct {
