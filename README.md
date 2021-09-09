@@ -4,7 +4,7 @@
 
 ```go
 import (
-  "gorm.io/driver/mysql"
+  "github.com/Laisky/mysql-1"
   "gorm.io/gorm"
 )
 
@@ -17,7 +17,7 @@ db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 
 ```go
 import (
-  "gorm.io/driver/mysql"
+  "github.com/Laisky/mysql-1"
   "gorm.io/gorm"
 )
 
